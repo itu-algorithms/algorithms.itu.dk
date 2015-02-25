@@ -11,13 +11,15 @@
       {{ content }}
     </div>
 
+    {% include _share-page.html %}
+
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-open"></i></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
@@ -25,8 +27,8 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
-  
+  {% endunless %}
+
     <hr>
     <ul class="pagination">
     {% if page.previous %}
