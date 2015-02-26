@@ -7,6 +7,25 @@
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
+
+    {% if page.time %}
+    <div class="date">
+      <span>Time: {{ page.time }}</span>
+    </div>
+    {% endif %}
+
+    {% if page.place %}
+    <div class="date">
+      <span>Place: {{ page.place  }}</span>
+    </div>
+    {% endif %}
+
+    {% if page.speaker %}
+    <div class="date">
+      <span>Speaker: {{ page.speaker  }}</span>
+    </div>
+    {% endif %}
+
     <div class="content">
       {{ content }}
     </div>

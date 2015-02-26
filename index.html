@@ -1,22 +1,25 @@
 ---
 layout: page
 title: Algorithms
-tagline: Algorithms research at ITU Copenhagen
+tagline: Research group at ITU Copenhagen
 ---
 {% include JB/setup %}
 
 <img src = "images/algorithms-group-feb-2015-shallow.png" class="img-responsive">
 
-<h3>Current members</h3>
+<h4>Current members</h4>
 
 {% assign members = site.data.members | sort: 'last' %}
 
 {% for member in members %}
+{% if member.url %}<a href="http://{{member.url}}">{% endif %}
+{{ member.first }}
 {{ member.last }}
+{% if member.url %}</a>{% endif %}
 {% unless forloop.last %} • {% endunless %}
 {% endfor %}
 
-<h3>Recent news</h3>
+<h4>Recent news</h4>
 
 <ul class="posts">
   {% for post in site.categories.news limit:3 %}
@@ -24,12 +27,16 @@ tagline: Algorithms research at ITU Copenhagen
   {% endfor %}
 </ul>
 
-<h3>Talks</h3>
+<a href="news.html">[More news]</a>
+
+<h4>Events</h4>
 
 <ul class="posts">
-  {% for post in site.categories.talk limit:3 %}
+  {% for post in site.categories.events limit:3 %}
     <li><span>{{ post.date | date_to_string }}:</span>
-        {% if post.speaker %} {{post.speaker}}, {% endif %}
+        {% if post.speaker %} {{post.speaker}} speaks on {% endif %}
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<a href="events.html">[More events]</a>

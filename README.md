@@ -1,39 +1,65 @@
-# Jekyll-Bootstrap
-
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+# ITU Algorithms group web pages
 
 ## Usage
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+Simple updates (such as a news item or event) can be done by addint single text files in Markdown format to the git repository.
+(If you want to do more serious modifications to the blog, it’s probably a good idea to clone the repo, make local changes, add them, commit, and push.)
 
-## Version
+### Adding posts and events
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+Every event and news item is a separate text file in the `_posts` folder.
+The file name starts with the date of hte news item of event, as `YYYY-MM-DD-whatever.md`, for instance `2015-02-22-talk-by-turing.md`.
+Each text file must begin with a title between two lines of three dashes.
+A minimal news item looks like this:
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+    ---
+    title: New group language policy
+    ---
+    The group has adapted German as the default language for talks
+    and social interaction.
 
-## Contributing
+Posts are in Markdown format, so you can do something like this:
+
+    ---
+    title: New group language policy
+    ---
+    The group has adapted *German* as the default language for talks
+    and informal interaction.
 
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+Mathjax is activated in all posts, so you can do something like this:
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+    ---
+    title: Group abandons circle constant
+    ---
+    As a matter of group policy, the algorithm group will henceforth
+    use the circle constant \\(\tau\\) instead of \\(pi\\).
+    For instance, \\(A = \pi r^2\\) will be given as
+    \\( A = \frac{1}{2} \tau r^2\\).
 
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+(The Markdown preprocessor and Mathjax interact in funky and ill-defined ways. There’s not much one can do about that other than trying various backslashes to escape backslashes and underscore.)
 
-**Jekyll-Bootstrap Documentation Website.**
+A post that is not a news item needs to be categorised as an event.
+Posts may have speaker, place, and time fields set in the frontmatter.
+A typical event looks like this:
 
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+    ---
+    title: Approximate Range Emptiness in Constant Time and Optimal Space
+    category: events
+    time: 11–12
+    place: 3A11
+    speaker: Rasmus Pagh
+    ---
+    Joint work with Mayank Goswami, Allan Grønlund, and Kasper Green Larsen
 
+    Presented at SODA 2015
+
+    Abstract: This paper studies the ε-approximate range emptiness problem, where the task is to represent a set S of n points from \\(\\{0, \ldots , U − 1\\}\\)
+    and answer emptiness queries of the form “ \\([a; b] \cap S\neq \emptyset ?\\) ”
+
+### Members
+
+The database of group members is another text file in YML format at `_data/members.yml`.
 
 ## License
 
