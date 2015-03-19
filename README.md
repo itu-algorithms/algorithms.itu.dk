@@ -1,5 +1,7 @@
 # ITU Algorithms group web pages
 
+The [live version](http://itu-algorithms.github.io) is visible to the world.
+
 ## Usage
 
 Simple updates (such as a news item or event) can be done by addint single text files in Markdown format to the git repository.
