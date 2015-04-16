@@ -1,6 +1,7 @@
 ---
 category: events
-title: Ilya Razenshteyn - Optimal Data-Dependent Hashing for Approximate Near Neighbors
+title:Optimal Data-Dependent Hashing for Approximate Near Neighbors
+speaker: Ilya Razenshteyn
 time: April 21, 10.30-11.30
 place: Room 3A08, ITU.
 ---
