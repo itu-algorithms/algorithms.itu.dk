@@ -1,0 +1,21 @@
+---
+category: events
+title: Smooth Tradeoffs between Insert and Query Complexity in Nearest Neighbor Search
+speaker: Michael Kapralov (IBM Watson)
+time: August 14, 11.00-11.45
+place: Room 4A05, ITU.
+---
+Abstract:
+Locality Sensitive Hashing (LSH) has emerged as the method of choice for high dimensional similarity search, a
+classical problem of interest in numerous applications. LSH-based solutions require that each data point be inserted
+into a number A of hash tables, after which a query can be answered by performing B lookups. The original LSH
+solution of [IM98] showed for the first time that both A and B can be made sublinear in the number of data points.
+Unfortunately, the classical LSH solution does not provide any tradeoff between insert and query complexity, whereas
+for data (respectively, query) intensive applications one would like to minimize insert time by choosing a smaller
+A (respectively, minimize query time by choosing a smaller B). A partial remedy for this is provided by Entropy
+LSH [Pan06], which allows to make either inserts or queries essentially constant time at the expense of a loss in the
+other parameter, but no algorithm that achieves a smooth tradeoff is known.
+In this paper, we present an algorithm for performing similarity search under the Euclidean metric that resolves the
+problem above. Our solution is inspired by Entropy LSH, but uses a very different analysis to achieve a smooth tradeoff
+between insert and query complexity. Our results improve upon or match, up to lower order terms in the exponent, best
+known data-oblivious algorithms for main memory LSH for the Euclidean metric.
