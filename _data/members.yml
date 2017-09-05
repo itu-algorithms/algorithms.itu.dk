@@ -11,7 +11,7 @@
 - first: Thomas Dybdahl
   last: Ahle
   position: Ph.D. Student
-  url: pure.itu.dk/portal/en/persons/thomas-dybdahl-ahle(88e2a7f0-5c59-464c-9daa-bb8b2449bb0a).html
+  url: http://www.itu.dk/people/thdy/
 
 - first: Riko
   last: Jacob
@@ -20,24 +20,23 @@
 
 - first: Troels Bjerre
   last: Sørensen
-  position: Assistant professor
+  position: Associate professor
   url: www.itu.dk/people/trbj
-
-- first: Francesco
-  last: Silvestri
-  position: Postdoc
-  url: www.itu.dk/people/fras
-
 
 - first: Tobias Lybecker
   last: Christiani
   position: Ph.D. Student
-  url: pure.itu.dk/portal/en/persons/tobias-lybecker-christiani(9f8bc19f-b07e-41b4-8237-fe15a62fc6ad).html
+  url: http://www.itu.dk/people/tobc/
 
 - first: Johan von Tangen
   last: Sivertsen
-  position: Ph.D. Student
+  position: Postdoc
   url: www.itu.dk/people/jovt
+  
+- first: Jesper With
+  last: Mikkelsen
+  position: Postdoc
+  url: www.itu.dk/people/jewm
   
 - first: Matteo
   last: Dusefante
@@ -51,7 +50,7 @@
 
 - first: Natalie
   last: Schluter
-  position: Assistant Professor
+  position: Associate Professor
   url: natschluter.wordpress.com
 
 - first: Jes
@@ -61,5 +60,5 @@
   
 - first: Zeljko
   last: Agic
-  position: Assistant Professor
+  position: Associate Professor
   url:  zeljkoagic.github.io
