@@ -1,59 +1,64 @@
 - first: Thore
   last: Husfeldt
-  url: www.thorehusfeldt.net
+  url: https://thorehusfeldt.com
   position: Associate professor
 
 - first: Rasmus
   last: Pagh
   position: Professor
-  url: www.itu.dk/people/pagh
+  url: https://www.itu.dk/people/pagh/
 
 - first: Thomas Dybdahl
   last: Ahle
   position: Ph.D. Student
-  url: http://www.itu.dk/people/thdy/
+  url: https://www.itu.dk/people/thdy/
 
 - first: Riko
   last: Jacob
   position: Associate professor
-  url: www.itu.dk/people/rikj
+  url: https://www.itu.dk/people/rikj/
 
 - first: Troels Bjerre
   last: Sørensen
   position: Associate professor
-  url: www.itu.dk/people/trbj
+  url: https://www.itu.dk/people/trbj/
 
 - first: Tobias Lybecker
   last: Christiani
   position: Ph.D. Student
-  url: http://www.itu.dk/people/tobc/
+  url: https://www.itu.dk/people/tobc/
 
 - first: Johan von Tangen
   last: Sivertsen
   position: Postdoc
-  url: www.itu.dk/people/jovt
+  url: https://www.itu.dk/people/jovt/
   
 - first: Jesper With
   last: Mikkelsen
   position: Postdoc
-  url: www.itu.dk/people/jewm
+  url: https://www.itu.dk/people/jewm/
   
 - first: Matteo
   last: Dusefante
   position: Ph.D. Student
-  url: www.itu.dk/people/madu
+  url: https://www.itu.dk/people/madu/
   
 - first: Martin
   last: Aumüller
   position: Postdoc
-  url: www.itu.dk/people/maau
+  url: https://www.itu.dk/people/maau/
 
 - first: Natalie
   last: Schluter
   position: Associate Professor
-  url: natschluter.wordpress.com
+  url: https://natschluter.wordpress.com
 
 - first: Jes
   last: Frellsen
   position: Associate Professor
-  url: mlg.eng.cam.ac.uk/frellsen
+  url: https://frellsen.org
+  
+- first: Holger
+  last: Dell
+  position: Associate Professor
+  url: https://holgerdell.com
