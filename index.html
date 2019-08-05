@@ -12,7 +12,7 @@ tagline: Research group at ITU Copenhagen
 {% assign members = site.data.members | sort: 'last' %}
 
 {% for member in members %}
-{% if member.url %}<a href="http://{{member.url}}">{% endif %}
+{% if member.url %}<a href="{{member.url}}">{% endif %}
 {{ member.first }}
 {{ member.last }}
 {% if member.url %}</a>{% endif %}
