@@ -1,22 +1,42 @@
 - first: Ninh Dang
   last: Pham
   position: Postdoc
-  itu-url: www.itu.dk/people/ndap
+  itu-url: https://www.itu.dk/people/ndap
   ended: August 2016
   left-for: DABAI, University of Copenhagen 
-  last-url: sites.google.com/site/phamninh/
-
+  last-url: https://sites.google.com/site/phamninh/
 
 - first: Matthew
   last: Skala
   position: Postdoc
-  itu-url: www.itu.dk/people/mska
+  itu-url: https://www.itu.dk/people/mska
   ended: August 2016
-  last-url: http://ansuz.sooke.bc.ca
+  last-url: https://ansuz.sooke.bc.ca
 
 - first: Francesco
   last: Silvestri
   position: Postdoc
-  itu-url: www.itu.dk/people/fras
+  itu-url: https://www.itu.dk/people/fras
   ended: December 2016
-  last-url: http://www.dei.unipd.it/~silvestri/index.html
+  last-url: https://www.dei.unipd.it/~silvestri/index.html
+  
+- first: Matteo
+  last: Dusefante
+  position: Ph.D. Student
+  url: https://www.itu.dk/people/madu/
+
+- first: Tobias Lybecker
+  last: Christiani
+  position: Ph.D. Student
+  url: https://www.itu.dk/people/tobc/
+
+- first: Johan von Tangen
+  last: Sivertsen
+  position: Postdoc
+  url: https://www.itu.dk/people/jovt/
+
+- first: Jes
+  last: Frellsen
+  position: Associate Professor
+  ended: June 2019
+  url: https://frellsen.org

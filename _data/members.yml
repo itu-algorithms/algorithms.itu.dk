@@ -1,7 +1,7 @@
 - first: Thore
   last: Husfeldt
   url: https://thorehusfeldt.com
-  position: Associate professor
+  position: Associate Professor
 
 - first: Rasmus
   last: Pagh
@@ -10,38 +10,23 @@
 
 - first: Thomas Dybdahl
   last: Ahle
-  position: Ph.D. Student
+  position: Postdoc
   url: https://www.itu.dk/people/thdy/
 
 - first: Riko
   last: Jacob
-  position: Associate professor
+  position: Associate Professor
   url: https://www.itu.dk/people/rikj/
 
 - first: Troels Bjerre
   last: Sørensen
-  position: Associate professor
+  position: Associate Professor
   url: https://www.itu.dk/people/trbj/
-
-- first: Tobias Lybecker
-  last: Christiani
-  position: Ph.D. Student
-  url: https://www.itu.dk/people/tobc/
-
-- first: Johan von Tangen
-  last: Sivertsen
-  position: Postdoc
-  url: https://www.itu.dk/people/jovt/
   
 - first: Jesper With
   last: Mikkelsen
   position: Postdoc
   url: https://www.itu.dk/people/jewm/
-  
-- first: Matteo
-  last: Dusefante
-  position: Ph.D. Student
-  url: https://www.itu.dk/people/madu/
   
 - first: Martin
   last: Aumüller
@@ -52,13 +37,17 @@
   last: Schluter
   position: Associate Professor
   url: https://natschluter.wordpress.com
-
-- first: Jes
-  last: Frellsen
-  position: Associate Professor
-  url: https://frellsen.org
   
 - first: Holger
   last: Dell
   position: Associate Professor
   url: https://holgerdell.com
+  
+- first: Radu
+  last: Curticapean
+  position: Postdoc
+  url: https://www-cc.cs.uni-saarland.de/curticapean/
+
+- first: Nina
+  last: Mesing Stausholm Nielsen
+  position: Ph.D. Student

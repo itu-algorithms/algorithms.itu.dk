@@ -11,6 +11,18 @@ tagline: Research group at ITU Copenhagen
 
 {% assign members = site.data.members | sort: 'last' %}
 
+<ul>
+{% for member in members %}
+<li>{% if member.url %}<a href="{{member.url}}">{% endif %}
+{{ member.first }}
+{{ member.last }}
+{% if member.url %}</a>{% endif %}
+{% if member.position %}({{ member.position }}){% endif %}
+</li>
+{% endfor %}
+</ul>
+
+{% if false %}
 {% for member in members %}
 {% if member.url %}<a href="{{member.url}}">{% endif %}
 {{ member.first }}
@@ -40,3 +52,20 @@ tagline: Research group at ITU Copenhagen
 </ul>
 
 <a href="events.html">[More events]</a>
+{% endif %}
+
+<h4>Former members</h4>
+
+{% assign members = site.data.previous-members | sort: 'last' %}
+<ul>
+{% for member in members %}
+<li>{% if member.url %}<a href="{{member.url}}">{% endif %}
+{{ member.first }}
+{{ member.last }}
+{% if member.url %}</a>{% endif %}
+{% if member.position %}({{ member.position }})
+{% if member.ended %}until {{ member.ended }}{% endif %}
+{% endif %}
+</li>
+{% endfor %}
+</ul>
