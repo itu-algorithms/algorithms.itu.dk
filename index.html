@@ -7,11 +7,15 @@ tagline: Research group at ITU Copenhagen
 
 <img src = "images/algorithms-group-feb-2015-shallow.png" class="img-responsive">
 
+<div class="row" style="padding-top: 3em;">
+  <div class="col-md-2"></div>
+  <div class="col-md-4">
+
 <h4>Current members</h4>
 
 {% assign members = site.data.members | sort: 'last' %}
 
-<ul>
+<ul class="list-unstyled">
 {% for member in members %}
 <li>{% if member.url %}<a href="{{member.url}}">{% endif %}
 {{ member.first }}
@@ -21,6 +25,8 @@ tagline: Research group at ITU Copenhagen
 </li>
 {% endfor %}
 </ul>
+
+  </div>
 
 {% if false %}
 {% for member in members %}
@@ -54,10 +60,13 @@ tagline: Research group at ITU Copenhagen
 <a href="events.html">[More events]</a>
 {% endif %}
 
+
+  <div class="col-md-4">
+
 <h4>Former members</h4>
 
 {% assign members = site.data.previous-members | sort: 'last' %}
-<ul>
+<ul class="list-unstyled">
 {% for member in members %}
 <li>{% if member.url %}<a href="{{member.url}}">{% endif %}
 {{ member.first }}
@@ -69,3 +78,6 @@ tagline: Research group at ITU Copenhagen
 </li>
 {% endfor %}
 </ul>
+
+</div>
+</div>
