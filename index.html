@@ -8,10 +8,9 @@ tagline: Research group at <a href="https://en.itu.dk/">ITU Copenhagen</a>
 <img alt="Group Photo from February 2015" src="images/algorithms-group-feb-2015-shallow.png" class="img-responsive">
 
 <div class="row" style="padding-top: 3em;">
-  <div class="col-md-2"></div>
+  <div class="col-md-1"></div>
   <div class="col-md-4">
-
-<h4>Current members</h4>
+<h3>Current members</h3>
 
 {% assign members = site.data.members | sort: 'last' %}
 
@@ -37,7 +36,7 @@ tagline: Research group at <a href="https://en.itu.dk/">ITU Copenhagen</a>
 {% unless forloop.last %} • {% endunless %}
 {% endfor %}
 
-<h4>Recent news</h4>
+<h3>Recent news</h3>
 
 <ul class="posts">
   {% for post in site.categories.news limit:3 %}
@@ -47,7 +46,7 @@ tagline: Research group at <a href="https://en.itu.dk/">ITU Copenhagen</a>
 
 <a href="news.html">[More news]</a>
 
-<h4>Events</h4>
+<h3>Events</h3>
 
 <ul class="posts">
   {% for post in site.categories.events limit:3 %}
@@ -62,8 +61,7 @@ tagline: Research group at <a href="https://en.itu.dk/">ITU Copenhagen</a>
 
 
   <div class="col-md-4">
-
-<h4>Former members</h4>
+<h3>Former members</h3>
 
 {% assign members = site.data.previous-members | sort: 'last' %}
 <ul class="list-unstyled">
@@ -79,5 +77,14 @@ tagline: Research group at <a href="https://en.itu.dk/">ITU Copenhagen</a>
 {% endfor %}
 </ul>
 
+</div>
+<div class="col-md-3">
+  <h4>Contact</h4>
+  IT University of Copenhagen<br />
+  Wing 4B
+  <br />
+  <br />
+  Rued Langgaards Vej 7<br />
+  2300 København
 </div>
 </div>

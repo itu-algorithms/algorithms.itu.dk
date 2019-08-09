@@ -25,6 +25,9 @@ h1, h2, h3, h4 {
   display: none;
 }
 
+h4 {
+  margin-top: 20px;
+}
 
 
 /* posts index */
