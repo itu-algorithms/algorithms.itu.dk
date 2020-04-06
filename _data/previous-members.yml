@@ -1,3 +1,9 @@
+- first: Thomas Dybdahl
+  last: Ahle
+  position: Postdoc
+  itu-url: https://www.itu.dk/people/thdy/
+  ended: March 2020
+
 - first: Ninh Dang
   last: Pham
   position: Postdoc
@@ -23,17 +29,17 @@
 - first: Matteo
   last: Dusefante
   position: Ph.D. Student
-  url: https://www.itu.dk/people/madu/
+  itu-url: https://www.itu.dk/people/madu/
 
 - first: Tobias Lybecker
   last: Christiani
   position: Postdoc
-  url: https://www.itu.dk/people/tobc/
+  itu-url: https://www.itu.dk/people/tobc/
 
 - first: Johan von Tangen
   last: Sivertsen
   position: Postdoc
-  url: https://www.itu.dk/people/jovt/
+  itu-url: https://www.itu.dk/people/jovt/
 
 - first: Jes
   last: Frellsen
@@ -44,7 +50,7 @@
 - first: Jesper With
   last: Mikkelsen
   position: Postdoc
-  url: https://www.itu.dk/people/jewm/
+  itu-url: https://www.itu.dk/people/jewm/
 
 - first: Matteo
   last: Ceccarello
