@@ -4,7 +4,7 @@ The [live version](http://itu-algorithms.github.io) is visible to the world.
 
 ## Usage
 
-Simple updates (such as a news item or event) can be done by addint single text files in Markdown format to the git repository.
+Simple updates (such as a news item or event) can be done by adding single text files in Markdown format to the git repository.
 (If you want to do more serious modifications to the blog, it’s probably a good idea to clone the repo, make local changes, add them, commit, and push.)
 
 ### Adding posts and events
