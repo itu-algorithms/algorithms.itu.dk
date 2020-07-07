@@ -1,6 +1,6 @@
 # ITU Algorithms group web pages
 
-The [live version](http://itu-algorithms.github.io) is visible to the world.
+The [live version](https://algorithms.itu.dk/) is visible to the world.
 
 ## Usage
 
