@@ -3,30 +3,15 @@
   url: https://thorehusfeldt.com
   position: Professor
 
-- first: Rasmus
-  last: Pagh
-  position: Professor
-  url: https://www.itu.dk/people/pagh/
-
 - first: Riko
   last: Jacob
   position: Associate Professor
   url: https://www.itu.dk/people/rikj/
-
-- first: Troels Bjerre
-  last: Sørensen
-  position: Associate Professor
-  url: https://www.itu.dk/people/trbj/
   
 - first: Martin
   last: Aumüller
-  position: Assistant Professor
-  url: https://www.itu.dk/people/maau/
-
-- first: Natalie
-  last: Schluter
   position: Associate Professor
-  url: https://natschluter.github.io
+  url: https://www.itu.dk/people/maau/
   
 - first: Holger
   last: Dell
@@ -35,9 +20,33 @@
   
 - first: Radu
   last: Curticapean
-  position: Assistant Professor
+  position: Associate Professor
   url: https://www-cc.cs.uni-saarland.de/curticapean/
 
-- first: Nina
-  last: Mesing Stausholm Nielsen
-  position: Ph.D. Student
+- first: Nutan
+  last: Limaye
+  position: Associate Professor
+  url: https://www.itu.dk/~nuli/
+
+- first: Paloma
+  last: T. Lima
+  position: Assistant Professor
+  url: https://www.itu.dk/~palt/
+
+- first: Christian
+  last: Janos Lebeda
+  position: Postdoc
+  url: https://www.itu.dk/~chle
+
+- first: Camilla
+  last: Birch Okkels
+  position: PhD student
+  url: https://blogit.itu.dk/cabi/
+
+- first: Ioana
+  last: Oriana Bercea  
+  position: Postdoc
+  url: https://ioanabercea.github.io/webpage/
+
+
+
