@@ -28,10 +28,15 @@
   position: Associate Professor
   url: https://www.itu.dk/~nuli/
 
-- first: Paloma
-  last: T. Lima
+- first: Paloma T.
+  last: Lima
   position: Assistant Professor
   url: https://www.itu.dk/~palt/
+
+- first: Amir
+  last: Nikabadi
+  position: PhD student
+  url: https://pure.itu.dk/en/persons/amir-nikabadi
 
 - first: Christian
   last: Janos Lebeda
