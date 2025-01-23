@@ -21,7 +21,7 @@
 - first: Radu
   last: Curticapean
   position: Associate Professor
-  url: https://www-cc.cs.uni-saarland.de/curticapean/
+  url: https://scholar.google.com/citations?user=5MeyUVQAAAAJ&hl=de
 
 - first: Nutan
   last: Limaye
@@ -43,24 +43,29 @@
   position: PhD student
   url: https://pure.itu.dk/en/persons/amir-nikabadi
 
-- first: Christian
-  last: Janos Lebeda
-  position: Postdoc
-  url: https://www.itu.dk/~chle
 
 - first: Camilla
   last: Birch Okkels
   position: PhD student
   url: https://blogit.itu.dk/cabi/
 
-- first: Lars
-  last: Jaffke
-  position: Postdoc
-  url: https://lars-jaffke.github.io/
+- first: Magnus 
+  last: Rahbek Dalgaard Hansen
+  position: PhD student
+  url: https://pure.itu.dk/da/persons/magnus-rahbek-dalgaard-hansen
 
-- first: Fabrizio
-  last: Boninsegna
-  position: Visiting PhD student
+- first: Prateek 
+  last: Dwivedi
+  position: Postdoc
+  url: https://www.prateekdwivedi.in/
+
+- first: Frederik 
+  last: Haagensen
+  position: PhD student
+  url: https://pure.itu.dk/da/persons/frederik-haagensen
+
+
+
 
 
 
