@@ -28,11 +28,6 @@
   position: Associate Professor
   url: https://www.itu.dk/~nuli/
 
-- first: Andreas
-  last: Björklund
-  position: Associate Professor
-  url: https://pure.itu.dk/en/persons/andreas-bj%C3%B6rklund
-
 - first: Paloma T.
   last: Lima
   position: Assistant Professor
@@ -64,10 +59,10 @@
   position: PhD student
   url: https://pure.itu.dk/da/persons/frederik-haagensen
 
-- first: Alexander
-  last: Theodor Bilde Pedersen
-  position: Research Assistant
-
+- first: Tim
+  last: Seppelt
+  position: Postdoc
+  url: https://tseppelt.github.io/
 
 
 
