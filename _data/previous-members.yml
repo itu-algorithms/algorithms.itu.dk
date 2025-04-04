@@ -10,7 +10,7 @@
   position: Postdoc
   itu-url: https://www.itu.dk/people/ndap
   ended: August 2016
-  left-for: DABAI, University of Copenhagen 
+  left-for: DABAI, University of Copenhagen
   last-url: https://sites.google.com/site/phamninh/
 
 - first: Matthew
@@ -26,7 +26,7 @@
   itu-url: https://www.itu.dk/people/fras
   ended: December 2016
   last-url: https://www.dei.unipd.it/~silvestri/index.html
-  
+
 - first: Matteo
   last: Dusefante
   position: Ph.D. Student
@@ -57,7 +57,7 @@
   last: Ceccarello
   position: Postdoc
   ended: September 2019
-  url: https://www.dei.unipd.it/~ceccarel/
+  url: https://www.dei.unipd.it/~ceccarello/
 
 - first: Rasmus
   last: Pagh
@@ -81,19 +81,17 @@
   ended: 2021
   url: https://www.itu.dk/people/trbj/
 
-
 - first: Ioana
-  last: Oriana Bercea  
+  last: Oriana Bercea
   position: Postdoc
   ended: 2023
   url: https://ioanabercea.github.io/webpage/
-
 
 - first: Christian
   last: Janos Lebeda
   position: Postdoc
   ended: 2024
-  url: https://www.itu.dk/~chle
+  url: https://christianlebeda.github.io/
 
 - first: Lars
   last: Jaffke
@@ -109,12 +107,9 @@
 - first: Andreas
   last: Björklund
   position: Associate Professor
-  url: https://pure.itu.dk/en/persons/andreas-bj%C3%B6rklund
   ended: 2025
-
 
 - first: Alexander
   last: Theodor Bilde Pedersen
   position: Research Assistant
   ended: 2025
-
