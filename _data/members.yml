@@ -1,7 +1,16 @@
 - first: Thore
   last: Husfeldt
-  url: https://thorehusfeldt.com
   position: Professor
+  url: https://thorehusfeldt.com
+
+- first: Eva
+  last: Rotenberg
+  position: Professor
+
+- first: Nutan
+  last: Limaye
+  position: Professor
+  url: https://www.itu.dk/~nuli/
 
 - first: Riko
   last: Jacob
@@ -23,15 +32,30 @@
   position: Associate Professor
   url: https://scholar.google.com/citations?user=5MeyUVQAAAAJ&hl=de
 
-- first: Nutan
-  last: Limaye
-  position: Associate Professor
-  url: https://www.itu.dk/~nuli/
-
 - first: Paloma T.
   last: Lima
   position: Assistant Professor
   url: https://www.itu.dk/~palt/
+
+- first: Ivor
+  last: van der Hoog
+  position: Assistant Professor
+
+- first: Sarita
+  last: de Berg
+  position: Postdoc
+
+- first: Lasse
+  last: Wulf
+  position: Postdoc
+
+- first: Daniel
+  last: Rutschmann
+  position: Postdoc
+
+- first: Johanne
+  last: Müller Vistisen
+  position: PhD student
 
 - first: Amir
   last: Nikabadi
