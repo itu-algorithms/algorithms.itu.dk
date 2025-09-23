@@ -56,7 +56,7 @@
 - first: Johanne
   last: Müller Vistisen
   position: PhD student
-  
+
 - first: Juiette
   last: Vlieghe
   position: PhD student
@@ -90,3 +90,8 @@
   last: Seppelt
   position: Postdoc
   url: https://tseppelt.github.io/
+
+- first: Manon
+  last: Blanc
+  position: Postdoc
+  url: https://perso.crans.org/mblanc/
