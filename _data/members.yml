@@ -50,9 +50,6 @@
   last: Wulf
   position: Postdoc
 
-- first: Daniel
-  last: Rutschmann
-  position: Postdoc
 
 - first: Johanne
   last: Müller Vistisen
@@ -67,10 +64,6 @@
   position: PhD student
   url: https://sites.google.com/view/amirnikabadi/
 
-- first: Camilla
-  last: Birch Okkels
-  position: PhD student
-  url: https://blogit.itu.dk/cabi/
 
 - first: Magnus
   last: Rahbek Dalgaard Hansen
@@ -82,10 +75,7 @@
   position: Postdoc
   url: https://www.prateekdwivedi.in/
 
-- first: Frederik
-  last: Haagensen
-  position: PhD student
-  url: https://pure.itu.dk/da/persons/frederik-haagensen
+
 
 - first: Tim
   last: Seppelt
@@ -96,3 +86,17 @@
   last: Blanc
   position: Postdoc
   url: https://perso.crans.org/mblanc/
+
+- first: Niels
+  last: Inselmann Christiansen
+  position: Research Assistant
+
+- first: Nikolaj 
+  last: Munk Binder Jensen
+  position: Research Assistant
+
+- first: Frederikke 
+  last: Uldahl Martensen
+  position: PhD student
+
+
